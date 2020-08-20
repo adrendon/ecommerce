@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://fleetcart.envaysoft.com/en/admin/brands -->
+<html lang="en" class=" "><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--<base href="https://fleetcart.envaysoft.com">--><base href=".">
+        
+        <meta name="csrf-token" content="repOHj6VBk15AvIh7SdmkzWgz4Pz0stSvfQAQN8s">
+
+        <title>
+                        Brands
+     - FleetCart Admin
+        </title>
+
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+        <link href="./lenovo_files/css" rel="stylesheet">
+
+                    <link media="all" type="text/css" rel="stylesheet" href="./lenovo_files/admin.css">
+        
+        
+        <script>
+    window.FleetCart = {
+        version: '2.0.3',
+        csrfToken: 'repOHj6VBk15AvIh7SdmkzWgz4Pz0stSvfQAQN8s',
+        baseUrl: 'https://fleetcart.envaysoft.com',
+        rtl: false,
+        langs: {},
+        data: {},
+        errors: {},
+        selectize: [],
+    };
+
+    FleetCart.langs['admin::admin.buttons.delete'] = 'Delete';
+    FleetCart.langs['media::media.file_manager.title'] = 'File Manager';
+    FleetCart.langs['media::messages.image_has_been_added'] = 'Image has been added.';
+</script>
+
+
+<script type="text/javascript">
+    var Ziggy = {
+        namedRoutes: {"debugbar.openhandler":{"uri":"_debugbar\/open","methods":["GET","HEAD"],"domain":null},"debugbar.clockwork":{"uri":"_debugbar\/clockwork\/{id}","methods":["GET","HEAD"],"domain":null},"debugbar.telescope":{"uri":"_debugbar\/telescope\/{id}","methods":["GET","HEAD"],"domain":null},"debugbar.assets.css":{"uri":"_debugbar\/assets\/stylesheets","methods":["GET","HEAD"],"domain":null},"debugbar.assets.js":{"uri":"_debugbar\/assets\/javascript","methods":["GET","HEAD"],"domain":null},"debugbar.cache.delete":{"uri":"_debugbar\/cache\/{key}\/{tags?}","methods":["DELETE"],"domain":null},"ignition.healthCheck":{"uri":"_ignition\/health-check","methods":["GET","HEAD"],"domain":null},"ignition.executeSolution":{"uri":"_ignition\/execute-solution","methods":["POST"],"domain":null},"ignition.shareReport":{"uri":"_ignition\/share-report","methods":["POST"],"domain":null},"ignition.scripts":{"uri":"_ignition\/scripts\/{script}","methods":["GET","HEAD"],"domain":null},"ignition.styles":{"uri":"_ignition\/styles\/{style}","methods":["GET","HEAD"],"domain":null},"bone.captcha.image":{"uri":"captcha\/image","methods":["GET","HEAD"],"domain":null},"bone.captcha.image.tag":{"uri":"captcha\/image_tag","methods":["GET","HEAD"],"domain":null},"install.pre_installation":{"uri":"install\/pre-installation","methods":["GET","HEAD"],"domain":null},"install.configuration.show":{"uri":"install\/configuration","methods":["GET","HEAD"],"domain":null},"install.configuration.post":{"uri":"install\/configuration","methods":["POST"],"domain":null},"install.complete":{"uri":"install\/complete","methods":["GET","HEAD"],"domain":null},"license.create":{"uri":"license","methods":["GET","HEAD"],"domain":null},"license.store":{"uri":"license","methods":["POST"],"domain":null},"account.dashboard.index":{"uri":"en\/account","methods":["GET","HEAD"],"domain":null},"account.profile.edit":{"uri":"en\/account\/profile","methods":["GET","HEAD"],"domain":null},"account.profile.update":{"uri":"en\/account\/profile","methods":["PUT"],"domain":null},"account.orders.index":{"uri":"en\/account\/orders","methods":["GET","HEAD"],"domain":null},"account.orders.show":{"uri":"en\/account\/orders\/{id}","methods":["GET","HEAD"],"domain":null},"account.wishlist.index":{"uri":"en\/account\/wishlist","methods":["GET","HEAD"],"domain":null},"account.reviews.index":{"uri":"en\/account\/reviews","methods":["GET","HEAD"],"domain":null},"admin.dashboard.index":{"uri":"en\/admin","methods":["GET","HEAD"],"domain":null},"admin.sales_analytics.index":{"uri":"en\/admin\/sales-analytics","methods":["GET","HEAD"],"domain":null},"admin.attributes.index":{"uri":"en\/admin\/attributes","methods":["GET","HEAD"],"domain":null},"admin.attributes.create":{"uri":"en\/admin\/attributes\/create","methods":["GET","HEAD"],"domain":null},"admin.attributes.store":{"uri":"en\/admin\/attributes","methods":["POST"],"domain":null},"admin.attributes.edit":{"uri":"en\/admin\/attributes\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.attributes.update":{"uri":"en\/admin\/attributes\/{id}","methods":["PUT"],"domain":null},"admin.attributes.destroy":{"uri":"en\/admin\/attributes\/{ids?}","methods":["DELETE"],"domain":null},"admin.attribute_sets.index":{"uri":"en\/admin\/attributes-sets","methods":["GET","HEAD"],"domain":null},"admin.attribute_sets.create":{"uri":"en\/admin\/attributes-sets\/create","methods":["GET","HEAD"],"domain":null},"admin.attribute_sets.store":{"uri":"en\/admin\/attributes-sets","methods":["POST"],"domain":null},"admin.attribute_sets.edit":{"uri":"en\/admin\/attributes-sets\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.attribute_sets.update":{"uri":"en\/admin\/attributes-sets\/{id}","methods":["PUT"],"domain":null},"admin.attribute_sets.destroy":{"uri":"en\/admin\/attributes-sets\/{ids?}","methods":["DELETE"],"domain":null},"admin.brands.index":{"uri":"en\/admin\/brands","methods":["GET","HEAD"],"domain":null},"admin.brands.create":{"uri":"en\/admin\/brands\/create","methods":["GET","HEAD"],"domain":null},"admin.brands.store":{"uri":"en\/admin\/brands","methods":["POST"],"domain":null},"admin.brands.edit":{"uri":"en\/admin\/brands\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.brands.update":{"uri":"en\/admin\/brands\/{id}","methods":["PUT"],"domain":null},"admin.brands.destroy":{"uri":"en\/admin\/brands\/{ids?}","methods":["DELETE"],"domain":null},"brands.index":{"uri":"en\/brands","methods":["GET","HEAD"],"domain":null},"brands.products.index":{"uri":"en\/brands\/{brand}\/products","methods":["GET","HEAD"],"domain":null},"cart.index":{"uri":"en\/cart","methods":["GET","HEAD"],"domain":null},"cart.items.store":{"uri":"en\/cart\/items","methods":["POST"],"domain":null},"cart.items.update":{"uri":"en\/cart\/items\/{cartItemId}","methods":["PUT"],"domain":null},"cart.items.destroy":{"uri":"en\/cart\/items\/{cartItemId}","methods":["DELETE"],"domain":null},"cart.clear.store":{"uri":"en\/cart\/clear","methods":["POST"],"domain":null},"cart.shipping_method.store":{"uri":"en\/cart\/shipping-method","methods":["POST"],"domain":null},"cart.cross_sell_products.index":{"uri":"en\/cart\/cross-sell-products","methods":["GET","HEAD"],"domain":null},"admin.categories.tree":{"uri":"en\/admin\/categories\/tree","methods":["GET","HEAD"],"domain":null},"admin.categories.tree.update":{"uri":"en\/admin\/categories\/tree","methods":["PUT"],"domain":null},"admin.categories.index":{"uri":"en\/admin\/categories","methods":["GET","HEAD"],"domain":null},"admin.categories.store":{"uri":"en\/admin\/categories","methods":["POST"],"domain":null},"admin.categories.show":{"uri":"en\/admin\/categories\/{id}","methods":["GET","HEAD"],"domain":null},"admin.categories.update":{"uri":"en\/admin\/categories\/{id}","methods":["PUT"],"domain":null},"admin.categories.destroy":{"uri":"en\/admin\/categories\/{id}","methods":["DELETE"],"domain":null},"categories.index":{"uri":"en\/categories","methods":["GET","HEAD"],"domain":null},"categories.products.index":{"uri":"en\/categories\/{category}\/products","methods":["GET","HEAD"],"domain":null},"checkout.create":{"uri":"en\/checkout","methods":["GET","HEAD"],"domain":null},"checkout.store":{"uri":"en\/checkout","methods":["POST"],"domain":null},"checkout.complete.store":{"uri":"en\/checkout\/{orderId}\/complete","methods":["GET","HEAD"],"domain":null},"checkout.complete.show":{"uri":"en\/checkout\/complete","methods":["GET","HEAD"],"domain":null},"checkout.payment_canceled.store":{"uri":"en\/checkout\/{orderId}\/payment-canceled","methods":["GET","HEAD"],"domain":null},"compare.index":{"uri":"en\/compare","methods":["GET","HEAD"],"domain":null},"compare.store":{"uri":"en\/compare","methods":["POST"],"domain":null},"compare.destroy":{"uri":"en\/compare\/{productId}","methods":["DELETE"],"domain":null},"compare.related_products.index":{"uri":"en\/compare\/related-products","methods":["GET","HEAD"],"domain":null},"contact.create":{"uri":"en\/contact","methods":["GET","HEAD"],"domain":null},"contact.store":{"uri":"en\/contact","methods":["POST"],"domain":null},"admin.coupons.index":{"uri":"en\/admin\/coupons","methods":["GET","HEAD"],"domain":null},"admin.coupons.create":{"uri":"en\/admin\/coupons\/create","methods":["GET","HEAD"],"domain":null},"admin.coupons.store":{"uri":"en\/admin\/coupons","methods":["POST"],"domain":null},"admin.coupons.edit":{"uri":"en\/admin\/coupons\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.coupons.update":{"uri":"en\/admin\/coupons\/{id}","methods":["PUT"],"domain":null},"admin.coupons.destroy":{"uri":"en\/admin\/coupons\/{ids?}","methods":["DELETE"],"domain":null},"cart.coupon.store":{"uri":"en\/cart\/coupon","methods":["POST"],"domain":null},"cart.coupon.destroy":{"uri":"en\/cart\/coupon","methods":["DELETE"],"domain":null},"admin.currency_rates.index":{"uri":"en\/admin\/currency-rates","methods":["GET","HEAD"],"domain":null},"admin.currency_rates.edit":{"uri":"en\/admin\/currency-rates\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.currency_rates.update":{"uri":"en\/admin\/currency-rates\/{id}","methods":["PUT"],"domain":null},"admin.currency_rates.refresh":{"uri":"en\/admin\/currency-rates\/refresh","methods":["GET","HEAD"],"domain":null},"current_currency.store":{"uri":"en\/current-currency\/{code}","methods":["GET","HEAD"],"domain":null},"admin.flash_sales.index":{"uri":"en\/admin\/flash-sales","methods":["GET","HEAD"],"domain":null},"admin.flash_sales.create":{"uri":"en\/admin\/flash-sales\/create","methods":["GET","HEAD"],"domain":null},"admin.flash_sales.store":{"uri":"en\/admin\/flash-sales","methods":["POST"],"domain":null},"admin.flash_sales.edit":{"uri":"en\/admin\/flash-sales\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.flash_sales.update":{"uri":"en\/admin\/flash-sales\/{id}","methods":["PUT"],"domain":null},"admin.flash_sales.destroy":{"uri":"en\/admin\/flash-sales\/{ids?}","methods":["DELETE"],"domain":null},"admin.importer.index":{"uri":"en\/admin\/importer","methods":["GET","HEAD"],"domain":null},"admin.importer.store":{"uri":"en\/admin\/importer","methods":["POST"],"domain":null},"admin.download_csv.index":{"uri":"en\/admin\/download-csv","methods":["GET","HEAD"],"domain":null},"admin.media.index":{"uri":"en\/admin\/media","methods":["GET","HEAD"],"domain":null},"admin.media.store":{"uri":"en\/admin\/media","methods":["POST"],"domain":null},"admin.media.destroy":{"uri":"en\/admin\/media\/{ids?}","methods":["DELETE"],"domain":null},"admin.file_manager.index":{"uri":"en\/admin\/file-manager","methods":["GET","HEAD"],"domain":null},"admin.menus.index":{"uri":"en\/admin\/menus","methods":["GET","HEAD"],"domain":null},"admin.menus.create":{"uri":"en\/admin\/menus\/create","methods":["GET","HEAD"],"domain":null},"admin.menus.store":{"uri":"en\/admin\/menus","methods":["POST"],"domain":null},"admin.menus.edit":{"uri":"en\/admin\/menus\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.menus.update":{"uri":"en\/admin\/menus\/{id}","methods":["PUT"],"domain":null},"admin.menus.destroy":{"uri":"en\/admin\/menus\/{ids?}","methods":["DELETE"],"domain":null},"admin.menus.items.create":{"uri":"en\/admin\/menus\/{menuId?}\/items\/create","methods":["GET","HEAD"],"domain":null},"admin.menus.items.store":{"uri":"en\/admin\/menus\/{menuId}\/items","methods":["POST"],"domain":null},"admin.menus.items.edit":{"uri":"en\/admin\/menus\/{menuId}\/items\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.menus.items.update":{"uri":"en\/admin\/menus\/{menuId}\/items\/{id}","methods":["PUT"],"domain":null},"admin.menus.items.destroy":{"uri":"en\/admin\/menus\/items\/{id}","methods":["DELETE"],"domain":null},"admin.menus.items.order.update":{"uri":"en\/admin\/menus\/items\/order","methods":["PUT"],"domain":null},"subscribers.store":{"uri":"en\/subscribers","methods":["POST"],"domain":null},"admin.options.index":{"uri":"en\/admin\/options","methods":["GET","HEAD"],"domain":null},"admin.options.create":{"uri":"en\/admin\/options\/create","methods":["GET","HEAD"],"domain":null},"admin.options.store":{"uri":"en\/admin\/options","methods":["POST"],"domain":null},"admin.options.show":{"uri":"en\/admin\/options\/{id}","methods":["GET","HEAD"],"domain":null},"admin.options.edit":{"uri":"en\/admin\/options\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.options.update":{"uri":"en\/admin\/options\/{id}","methods":["PUT"],"domain":null},"admin.options.destroy":{"uri":"en\/admin\/options\/{ids}","methods":["DELETE"],"domain":null},"admin.orders.index":{"uri":"en\/admin\/orders","methods":["GET","HEAD"],"domain":null},"admin.orders.show":{"uri":"en\/admin\/orders\/{id}","methods":["GET","HEAD"],"domain":null},"admin.orders.status.update":{"uri":"en\/admin\/orders\/{order}\/status","methods":["PUT"],"domain":null},"admin.orders.email.store":{"uri":"en\/admin\/orders\/{order}\/email","methods":["POST"],"domain":null},"admin.orders.print.show":{"uri":"en\/admin\/orders\/{order}\/print","methods":["GET","HEAD"],"domain":null},"admin.pages.index":{"uri":"en\/admin\/pages","methods":["GET","HEAD"],"domain":null},"admin.pages.create":{"uri":"en\/admin\/pages\/create","methods":["GET","HEAD"],"domain":null},"admin.pages.store":{"uri":"en\/admin\/pages","methods":["POST"],"domain":null},"admin.pages.edit":{"uri":"en\/admin\/pages\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.pages.update":{"uri":"en\/admin\/pages\/{id}\/edit","methods":["PUT"],"domain":null},"admin.pages.destroy":{"uri":"en\/admin\/pages\/{ids?}","methods":["DELETE"],"domain":null},"home":{"uri":"en","methods":["GET","HEAD"],"domain":null},"admin.products.index":{"uri":"en\/admin\/products","methods":["GET","HEAD"],"domain":null},"admin.products.create":{"uri":"en\/admin\/products\/create","methods":["GET","HEAD"],"domain":null},"admin.products.store":{"uri":"en\/admin\/products","methods":["POST"],"domain":null},"admin.products.edit":{"uri":"en\/admin\/products\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.products.update":{"uri":"en\/admin\/products\/{id}","methods":["PUT"],"domain":null},"admin.products.destroy":{"uri":"en\/admin\/products\/{ids}","methods":["DELETE"],"domain":null},"products.index":{"uri":"en\/products","methods":["GET","HEAD"],"domain":null},"products.show":{"uri":"en\/products\/{slug}","methods":["GET","HEAD"],"domain":null},"suggestions.index":{"uri":"en\/suggestions","methods":["GET","HEAD"],"domain":null},"products.price.show":{"uri":"en\/products\/{id}\/price","methods":["POST"],"domain":null},"admin.reports.index":{"uri":"en\/admin\/reports","methods":["GET","HEAD"],"domain":null},"admin.reviews.index":{"uri":"en\/admin\/reviews","methods":["GET","HEAD"],"domain":null},"admin.reviews.edit":{"uri":"en\/admin\/reviews\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.reviews.update":{"uri":"en\/admin\/reviews\/{id}","methods":["PUT"],"domain":null},"admin.reviews.destroy":{"uri":"en\/admin\/reviews\/{ids?}","methods":["DELETE"],"domain":null},"products.reviews.index":{"uri":"en\/products\/{productId}\/reviews","methods":["GET","HEAD"],"domain":null},"products.reviews.store":{"uri":"en\/products\/{productId}\/reviews","methods":["POST"],"domain":null},"admin.settings.edit":{"uri":"en\/admin\/settings","methods":["GET","HEAD"],"domain":null},"admin.settings.update":{"uri":"en\/admin\/settings","methods":["PUT"],"domain":null},"admin.sliders.index":{"uri":"en\/admin\/sliders","methods":["GET","HEAD"],"domain":null},"admin.sliders.create":{"uri":"en\/admin\/sliders\/create","methods":["GET","HEAD"],"domain":null},"admin.sliders.store":{"uri":"en\/admin\/sliders","methods":["POST"],"domain":null},"admin.sliders.edit":{"uri":"en\/admin\/sliders\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.sliders.update":{"uri":"en\/admin\/sliders\/{id}","methods":["PUT"],"domain":null},"admin.sliders.destroy":{"uri":"en\/admin\/sliders\/{ids?}","methods":["DELETE"],"domain":null},"admin.slider_options.index":{"uri":"en\/admin\/slider-options","methods":["GET","HEAD"],"domain":null},"admin.slider_options.create":{"uri":"en\/admin\/slider-options\/create","methods":["GET","HEAD"],"domain":null},"admin.slider_options.store":{"uri":"en\/admin\/slider-options","methods":["POST"],"domain":null},"admin.slider_options.edit":{"uri":"en\/admin\/slider-options\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.slider_options.update":{"uri":"en\/admin\/slider-options\/{id}","methods":["PUT"],"domain":null},"admin.slider_options.destroy":{"uri":"en\/admin\/slider-options\/{ids?}","methods":["DELETE"],"domain":null},"countries.states.index":{"uri":"en\/countries\/{code}\/states","methods":["GET","HEAD"],"domain":null},"admin.tags.index":{"uri":"en\/admin\/tags","methods":["GET","HEAD"],"domain":null},"admin.tags.create":{"uri":"en\/admin\/tags\/create","methods":["GET","HEAD"],"domain":null},"admin.tags.store":{"uri":"en\/admin\/tags","methods":["POST"],"domain":null},"admin.tags.edit":{"uri":"en\/admin\/tags\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.tags.update":{"uri":"en\/admin\/tags\/{id}","methods":["PUT"],"domain":null},"admin.tags.destroy":{"uri":"en\/admin\/tags\/{ids?}","methods":["DELETE"],"domain":null},"tags.products.index":{"uri":"en\/tags\/{tag}\/products","methods":["GET","HEAD"],"domain":null},"admin.taxes.index":{"uri":"en\/admin\/taxes","methods":["GET","HEAD"],"domain":null},"admin.taxes.create":{"uri":"en\/admin\/taxes\/create","methods":["GET","HEAD"],"domain":null},"admin.taxes.store":{"uri":"en\/admin\/taxes","methods":["POST"],"domain":null},"admin.taxes.edit":{"uri":"en\/admin\/taxes\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.taxes.update":{"uri":"en\/admin\/taxes\/{id}","methods":["PUT"],"domain":null},"admin.taxes.destroy":{"uri":"en\/admin\/taxes\/{ids?}","methods":["DELETE"],"domain":null},"cart.taxes.store":{"uri":"en\/cart\/taxes","methods":["POST"],"domain":null},"admin.transactions.index":{"uri":"en\/admin\/transactions","methods":["GET","HEAD"],"domain":null},"admin.translations.index":{"uri":"en\/admin\/translations","methods":["GET","HEAD"],"domain":null},"admin.translations.update":{"uri":"en\/admin\/translations\/{key}","methods":["PUT"],"domain":null},"admin.login":{"uri":"en\/admin\/login","methods":["GET","HEAD"],"domain":null},"admin.login.post":{"uri":"en\/admin\/login","methods":["POST"],"domain":null},"admin.logout":{"uri":"en\/admin\/logout","methods":["GET","HEAD"],"domain":null},"admin.reset":{"uri":"en\/admin\/password\/reset","methods":["GET","HEAD"],"domain":null},"admin.reset.post":{"uri":"en\/admin\/password\/reset","methods":["POST"],"domain":null},"admin.reset.complete":{"uri":"en\/admin\/password\/reset\/{email}\/{code}","methods":["GET","HEAD"],"domain":null},"admin.reset.complete.post":{"uri":"en\/admin\/password\/reset\/{email}\/{code}","methods":["POST"],"domain":null},"admin.users.index":{"uri":"en\/admin\/users","methods":["GET","HEAD"],"domain":null},"admin.users.create":{"uri":"en\/admin\/users\/create","methods":["GET","HEAD"],"domain":null},"admin.users.store":{"uri":"en\/admin\/users","methods":["POST"],"domain":null},"admin.users.edit":{"uri":"en\/admin\/users\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.users.update":{"uri":"en\/admin\/users\/{id}\/edit","methods":["PUT"],"domain":null},"admin.users.destroy":{"uri":"en\/admin\/users\/{ids?}","methods":["DELETE"],"domain":null},"admin.users.reset_password":{"uri":"en\/admin\/users\/{id}\/reset-password","methods":["GET","HEAD"],"domain":null},"admin.roles.index":{"uri":"en\/admin\/roles","methods":["GET","HEAD"],"domain":null},"admin.roles.create":{"uri":"en\/admin\/roles\/create","methods":["GET","HEAD"],"domain":null},"admin.roles.store":{"uri":"en\/admin\/roles","methods":["POST"],"domain":null},"admin.roles.edit":{"uri":"en\/admin\/roles\/{id}\/edit","methods":["GET","HEAD"],"domain":null},"admin.roles.update":{"uri":"en\/admin\/roles\/{id}\/edit","methods":["PUT"],"domain":null},"admin.roles.destroy":{"uri":"en\/admin\/roles\/{ids?}","methods":["DELETE"],"domain":null},"admin.profile.edit":{"uri":"en\/admin\/profile","methods":["GET","HEAD"],"domain":null},"admin.profile.update":{"uri":"en\/admin\/profile","methods":["PUT"],"domain":null},"login":{"uri":"en\/login","methods":["GET","HEAD"],"domain":null},"login.post":{"uri":"en\/login","methods":["POST"],"domain":null},"login.redirect":{"uri":"en\/login\/{provider}","methods":["GET","HEAD"],"domain":null},"login.callback":{"uri":"en\/login\/{provider}\/callback","methods":["GET","HEAD"],"domain":null},"logout":{"uri":"en\/logout","methods":["GET","HEAD"],"domain":null},"register":{"uri":"en\/register","methods":["GET","HEAD"],"domain":null},"register.post":{"uri":"en\/register","methods":["POST"],"domain":null},"reset":{"uri":"en\/password\/reset","methods":["GET","HEAD"],"domain":null},"reset.post":{"uri":"en\/password\/reset","methods":["POST"],"domain":null},"reset.complete":{"uri":"en\/password\/reset\/{email}\/{code}","methods":["GET","HEAD"],"domain":null},"reset.complete.post":{"uri":"en\/password\/reset\/{email}\/{code}","methods":["POST"],"domain":null},"wishlist.store":{"uri":"en\/wishlist","methods":["POST"],"domain":null},"wishlist.destroy":{"uri":"en\/wishlist\/{productId}","methods":["DELETE"],"domain":null},"wishlist.products.index":{"uri":"en\/wishlist\/products","methods":["GET","HEAD"],"domain":null},"admin.storefront.settings.edit":{"uri":"en\/admin\/storefront","methods":["GET","HEAD"],"domain":null},"admin.storefront.settings.update":{"uri":"en\/admin\/storefront","methods":["PUT"],"domain":null},"storefront.featured_category_products.index":{"uri":"en\/storefront\/featured-categories\/{categoryNumber}\/products","methods":["GET","HEAD"],"domain":null},"storefront.tab_products.index":{"uri":"en\/storefront\/tab-products\/sections\/{sectionNumber}\/tabs\/{tabNumber}","methods":["GET","HEAD"],"domain":null},"storefront.product_grid.index":{"uri":"en\/storefront\/product-grid\/tabs\/{tabNumber}","methods":["GET","HEAD"],"domain":null},"storefront.flash_sale_products.index":{"uri":"en\/storefront\/flash-sale-products","methods":["GET","HEAD"],"domain":null},"storefront.vertical_products.index":{"uri":"en\/storefront\/vertical-products\/{columnNumber}","methods":["GET","HEAD"],"domain":null},"storefront.newsletter_popup.store":{"uri":"en\/storefront\/newsletter-popup","methods":["POST"],"domain":null},"storefront.newsletter_popup.destroy":{"uri":"en\/storefront\/newsletter-popup","methods":["DELETE"],"domain":null},"storefront.cookie_bar.destroy":{"uri":"en\/storefront\/cookie-bar","methods":["DELETE"],"domain":null},"theme_color.store":{"uri":"en\/storefront\/theme-color","methods":["POST"],"domain":null}},
+        baseUrl: 'https://fleetcart.envaysoft.com/',
+        baseProtocol: 'https',
+        baseDomain: 'fleetcart.envaysoft.com',
+        basePort: false,
+        defaultParameters: []
+    };
+
+    !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define("route",[],t):"object"==typeof exports?exports.route=t():e.route=t()}(this,function(){return function(e){var t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s=5)}([function(e,t,r){"use strict";var n=Object.prototype.hasOwnProperty,o=Array.isArray,i=function(){for(var e=[],t=0;t<256;++t)e.push("%"+((t<16?"0":"")+t.toString(16)).toUpperCase());return e}(),a=function(e,t){for(var r=t&&t.plainObjects?Object.create(null):{},n=0;n<e.length;++n)void 0!==e[n]&&(r[n]=e[n]);return r};e.exports={arrayToObject:a,assign:function(e,t){return Object.keys(t).reduce(function(e,r){return e[r]=t[r],e},e)},combine:function(e,t){return[].concat(e,t)},compact:function(e){for(var t=[{obj:{o:e},prop:"o"}],r=[],n=0;n<t.length;++n)for(var i=t[n],a=i.obj[i.prop],u=Object.keys(a),c=0;c<u.length;++c){var l=u[c],s=a[l];"object"==typeof s&&null!==s&&-1===r.indexOf(s)&&(t.push({obj:a,prop:l}),r.push(s))}return function(e){for(;e.length>1;){var t=e.pop(),r=t.obj[t.prop];if(o(r)){for(var n=[],i=0;i<r.length;++i)void 0!==r[i]&&n.push(r[i]);t.obj[t.prop]=n}}}(t),e},decode:function(e,t,r){var n=e.replace(/\+/g," ");if("iso-8859-1"===r)return n.replace(/%[0-9a-f]{2}/gi,unescape);try{return decodeURIComponent(n)}catch(e){return n}},encode:function(e,t,r){if(0===e.length)return e;var n=e;if("symbol"==typeof e?n=Symbol.prototype.toString.call(e):"string"!=typeof e&&(n=String(e)),"iso-8859-1"===r)return escape(n).replace(/%u[0-9a-f]{4}/gi,function(e){return"%26%23"+parseInt(e.slice(2),16)+"%3B"});for(var o="",a=0;a<n.length;++a){var u=n.charCodeAt(a);45===u||46===u||95===u||126===u||u>=48&&u<=57||u>=65&&u<=90||u>=97&&u<=122?o+=n.charAt(a):u<128?o+=i[u]:u<2048?o+=i[192|u>>6]+i[128|63&u]:u<55296||u>=57344?o+=i[224|u>>12]+i[128|u>>6&63]+i[128|63&u]:(a+=1,u=65536+((1023&u)<<10|1023&n.charCodeAt(a)),o+=i[240|u>>18]+i[128|u>>12&63]+i[128|u>>6&63]+i[128|63&u])}return o},isBuffer:function(e){return!(!e||"object"!=typeof e||!(e.constructor&&e.constructor.isBuffer&&e.constructor.isBuffer(e)))},isRegExp:function(e){return"[object RegExp]"===Object.prototype.toString.call(e)},merge:function e(t,r,i){if(!r)return t;if("object"!=typeof r){if(o(t))t.push(r);else{if(!t||"object"!=typeof t)return[t,r];(i&&(i.plainObjects||i.allowPrototypes)||!n.call(Object.prototype,r))&&(t[r]=!0)}return t}if(!t||"object"!=typeof t)return[t].concat(r);var u=t;return o(t)&&!o(r)&&(u=a(t,i)),o(t)&&o(r)?(r.forEach(function(r,o){if(n.call(t,o)){var a=t[o];a&&"object"==typeof a&&r&&"object"==typeof r?t[o]=e(a,r,i):t.push(r)}else t[o]=r}),t):Object.keys(r).reduce(function(t,o){var a=r[o];return n.call(t,o)?t[o]=e(t[o],a,i):t[o]=a,t},u)}}},function(e,t,r){"use strict";var n=String.prototype.replace,o=/%20/g,i=r(0),a={RFC1738:"RFC1738",RFC3986:"RFC3986"};e.exports=i.assign({default:a.RFC3986,formatters:{RFC1738:function(e){return n.call(e,o,"+")},RFC3986:function(e){return String(e)}}},a)},function(e,t,r){"use strict";var n=r(3),o=r(4),i=r(1);e.exports={formats:i,parse:o,stringify:n}},function(e,t,r){"use strict";var n=r(0),o=r(1),i=Object.prototype.hasOwnProperty,a={brackets:function(e){return e+"[]"},comma:"comma",indices:function(e,t){return e+"["+t+"]"},repeat:function(e){return e}},u=Array.isArray,c=Array.prototype.push,l=function(e,t){c.apply(e,u(t)?t:[t])},s=Date.prototype.toISOString,f=o.default,p={addQueryPrefix:!1,allowDots:!1,charset:"utf-8",charsetSentinel:!1,delimiter:"&",encode:!0,encoder:n.encode,encodeValuesOnly:!1,format:f,formatter:o.formatters[f],indices:!1,serializeDate:function(e){return s.call(e)},skipNulls:!1,strictNullHandling:!1},d=function e(t,r,o,i,a,c,s,f,d,y,h,m,b){var g,v=t;if("function"==typeof s?v=s(r,v):v instanceof Date?v=y(v):"comma"===o&&u(v)&&(v=v.join(",")),null===v){if(i)return c&&!m?c(r,p.encoder,b):r;v=""}if("string"==typeof(g=v)||"number"==typeof g||"boolean"==typeof g||"symbol"==typeof g||"bigint"==typeof g||n.isBuffer(v))return c?[h(m?r:c(r,p.encoder,b))+"="+h(c(v,p.encoder,b))]:[h(r)+"="+h(String(v))];var O,w=[];if(void 0===v)return w;if(u(s))O=s;else{var j=Object.keys(v);O=f?j.sort(f):j}for(var P=0;P<O.length;++P){var x=O[P];a&&null===v[x]||(u(v)?l(w,e(v[x],"function"==typeof o?o(r,x):r,o,i,a,c,s,f,d,y,h,m,b)):l(w,e(v[x],r+(d?"."+x:"["+x+"]"),o,i,a,c,s,f,d,y,h,m,b)))}return w};e.exports=function(e,t){var r,n=e,c=function(e){if(!e)return p;if(null!==e.encoder&&void 0!==e.encoder&&"function"!=typeof e.encoder)throw new TypeError("Encoder has to be a function.");var t=e.charset||p.charset;if(void 0!==e.charset&&"utf-8"!==e.charset&&"iso-8859-1"!==e.charset)throw new TypeError("The charset option must be either utf-8, iso-8859-1, or undefined");var r=o.default;if(void 0!==e.format){if(!i.call(o.formatters,e.format))throw new TypeError("Unknown format option provided.");r=e.format}var n=o.formatters[r],a=p.filter;return("function"==typeof e.filter||u(e.filter))&&(a=e.filter),{addQueryPrefix:"boolean"==typeof e.addQueryPrefix?e.addQueryPrefix:p.addQueryPrefix,allowDots:void 0===e.allowDots?p.allowDots:!!e.allowDots,charset:t,charsetSentinel:"boolean"==typeof e.charsetSentinel?e.charsetSentinel:p.charsetSentinel,delimiter:void 0===e.delimiter?p.delimiter:e.delimiter,encode:"boolean"==typeof e.encode?e.encode:p.encode,encoder:"function"==typeof e.encoder?e.encoder:p.encoder,encodeValuesOnly:"boolean"==typeof e.encodeValuesOnly?e.encodeValuesOnly:p.encodeValuesOnly,filter:a,formatter:n,serializeDate:"function"==typeof e.serializeDate?e.serializeDate:p.serializeDate,skipNulls:"boolean"==typeof e.skipNulls?e.skipNulls:p.skipNulls,sort:"function"==typeof e.sort?e.sort:null,strictNullHandling:"boolean"==typeof e.strictNullHandling?e.strictNullHandling:p.strictNullHandling}}(t);"function"==typeof c.filter?n=(0,c.filter)("",n):u(c.filter)&&(r=c.filter);var s,f=[];if("object"!=typeof n||null===n)return"";s=t&&t.arrayFormat in a?t.arrayFormat:t&&"indices"in t?t.indices?"indices":"repeat":"indices";var y=a[s];r||(r=Object.keys(n)),c.sort&&r.sort(c.sort);for(var h=0;h<r.length;++h){var m=r[h];c.skipNulls&&null===n[m]||l(f,d(n[m],m,y,c.strictNullHandling,c.skipNulls,c.encode?c.encoder:null,c.filter,c.sort,c.allowDots,c.serializeDate,c.formatter,c.encodeValuesOnly,c.charset))}var b=f.join(c.delimiter),g=!0===c.addQueryPrefix?"?":"";return c.charsetSentinel&&("iso-8859-1"===c.charset?g+="utf8=%26%2310003%3B&":g+="utf8=%E2%9C%93&"),b.length>0?g+b:""}},function(e,t,r){"use strict";var n=r(0),o=Object.prototype.hasOwnProperty,i={allowDots:!1,allowPrototypes:!1,arrayLimit:20,charset:"utf-8",charsetSentinel:!1,comma:!1,decoder:n.decode,delimiter:"&",depth:5,ignoreQueryPrefix:!1,interpretNumericEntities:!1,parameterLimit:1e3,parseArrays:!0,plainObjects:!1,strictNullHandling:!1},a=function(e){return e.replace(/&#(\d+);/g,function(e,t){return String.fromCharCode(parseInt(t,10))})},u=function(e,t,r){if(e){var n=r.allowDots?e.replace(/\.([^.[]+)/g,"[$1]"):e,i=/(\[[^[\]]*])/g,a=r.depth>0&&/(\[[^[\]]*])/.exec(n),u=a?n.slice(0,a.index):n,c=[];if(u){if(!r.plainObjects&&o.call(Object.prototype,u)&&!r.allowPrototypes)return;c.push(u)}for(var l=0;r.depth>0&&null!==(a=i.exec(n))&&l<r.depth;){if(l+=1,!r.plainObjects&&o.call(Object.prototype,a[1].slice(1,-1))&&!r.allowPrototypes)return;c.push(a[1])}return a&&c.push("["+n.slice(a.index)+"]"),function(e,t,r){for(var n=t,o=e.length-1;o>=0;--o){var i,a=e[o];if("[]"===a&&r.parseArrays)i=[].concat(n);else{i=r.plainObjects?Object.create(null):{};var u="["===a.charAt(0)&&"]"===a.charAt(a.length-1)?a.slice(1,-1):a,c=parseInt(u,10);r.parseArrays||""!==u?!isNaN(c)&&a!==u&&String(c)===u&&c>=0&&r.parseArrays&&c<=r.arrayLimit?(i=[])[c]=n:i[u]=n:i={0:n}}n=i}return n}(c,t,r)}};e.exports=function(e,t){var r=function(e){if(!e)return i;if(null!==e.decoder&&void 0!==e.decoder&&"function"!=typeof e.decoder)throw new TypeError("Decoder has to be a function.");if(void 0!==e.charset&&"utf-8"!==e.charset&&"iso-8859-1"!==e.charset)throw new Error("The charset option must be either utf-8, iso-8859-1, or undefined");var t=void 0===e.charset?i.charset:e.charset;return{allowDots:void 0===e.allowDots?i.allowDots:!!e.allowDots,allowPrototypes:"boolean"==typeof e.allowPrototypes?e.allowPrototypes:i.allowPrototypes,arrayLimit:"number"==typeof e.arrayLimit?e.arrayLimit:i.arrayLimit,charset:t,charsetSentinel:"boolean"==typeof e.charsetSentinel?e.charsetSentinel:i.charsetSentinel,comma:"boolean"==typeof e.comma?e.comma:i.comma,decoder:"function"==typeof e.decoder?e.decoder:i.decoder,delimiter:"string"==typeof e.delimiter||n.isRegExp(e.delimiter)?e.delimiter:i.delimiter,depth:"number"==typeof e.depth||!1===e.depth?+e.depth:i.depth,ignoreQueryPrefix:!0===e.ignoreQueryPrefix,interpretNumericEntities:"boolean"==typeof e.interpretNumericEntities?e.interpretNumericEntities:i.interpretNumericEntities,parameterLimit:"number"==typeof e.parameterLimit?e.parameterLimit:i.parameterLimit,parseArrays:!1!==e.parseArrays,plainObjects:"boolean"==typeof e.plainObjects?e.plainObjects:i.plainObjects,strictNullHandling:"boolean"==typeof e.strictNullHandling?e.strictNullHandling:i.strictNullHandling}}(t);if(""===e||null==e)return r.plainObjects?Object.create(null):{};for(var c="string"==typeof e?function(e,t){var r,u={},c=t.ignoreQueryPrefix?e.replace(/^\?/,""):e,l=t.parameterLimit===1/0?void 0:t.parameterLimit,s=c.split(t.delimiter,l),f=-1,p=t.charset;if(t.charsetSentinel)for(r=0;r<s.length;++r)0===s[r].indexOf("utf8=")&&("utf8=%E2%9C%93"===s[r]?p="utf-8":"utf8=%26%2310003%3B"===s[r]&&(p="iso-8859-1"),f=r,r=s.length);for(r=0;r<s.length;++r)if(r!==f){var d,y,h=s[r],m=h.indexOf("]="),b=-1===m?h.indexOf("="):m+1;-1===b?(d=t.decoder(h,i.decoder,p),y=t.strictNullHandling?null:""):(d=t.decoder(h.slice(0,b),i.decoder,p),y=t.decoder(h.slice(b+1),i.decoder,p)),y&&t.interpretNumericEntities&&"iso-8859-1"===p&&(y=a(y)),y&&t.comma&&y.indexOf(",")>-1&&(y=y.split(",")),o.call(u,d)?u[d]=n.combine(u[d],y):u[d]=y}return u}(e,r):e,l=r.plainObjects?Object.create(null):{},s=Object.keys(c),f=0;f<s.length;++f){var p=s[f],d=u(p,c[p],r);l=n.merge(l,d,r)}return n.compact(l)}},function(e,t,r){"use strict";function n(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}r.r(t);var o=function(){function e(t,r,n){if(function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,e),this.name=t,this.ziggy=n,this.route=this.ziggy.namedRoutes[this.name],void 0===this.name)throw new Error("Ziggy Error: You must provide a route name");if(void 0===this.route)throw new Error("Ziggy Error: route '".concat(this.name,"' is not found in the route list"));this.absolute=void 0===r||r,this.domain=this.setDomain(),this.path=this.route.uri.replace(/^\//,"")}var t,r;return t=e,(r=[{key:"setDomain",value:function(){if(!this.absolute)return"/";if(!this.route.domain)return this.ziggy.baseUrl.replace(/\/?$/,"/");var e=(this.route.domain||this.ziggy.baseDomain).replace(/\/+$/,"");return this.ziggy.basePort&&e.replace(/\/+$/,"")===this.ziggy.baseDomain.replace(/\/+$/,"")&&(e=this.ziggy.baseDomain+":"+this.ziggy.basePort),this.ziggy.baseProtocol+"://"+e+"/"}},{key:"construct",value:function(){return this.domain+this.path}}])&&n(t.prototype,r),e}(),i=r(2);function a(){return(a=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}).apply(this,arguments)}function u(e){return(u="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function c(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}function l(e){var t="function"==typeof Map?new Map:void 0;return(l=function(e){if(null===e||(r=e,-1===Function.toString.call(r).indexOf("[native code]")))return e;var r;if("function"!=typeof e)throw new TypeError("Super expression must either be null or a function");if(void 0!==t){if(t.has(e))return t.get(e);t.set(e,n)}function n(){return function(e,t,r){return(function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],function(){})),!0}catch(e){return!1}}()?Reflect.construct:function(e,t,r){var n=[null];n.push.apply(n,t);var o=new(Function.bind.apply(e,n));return r&&s(o,r.prototype),o}).apply(null,arguments)}(e,arguments,f(this).constructor)}return n.prototype=Object.create(e.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),s(n,e)})(e)}function s(e,t){return(s=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function f(e){return(f=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}r.d(t,"default",function(){return d});var p=function(e){function t(e,r,n){var i,a=arguments.length>3&&void 0!==arguments[3]?arguments[3]:null;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t),(i=function(e,t){return!t||"object"!==u(t)&&"function"!=typeof t?function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e):t}(this,f(t).call(this))).name=e,i.absolute=n,i.ziggy=a||Ziggy,i.urlBuilder=i.name?new o(e,n,i.ziggy):null,i.template=i.urlBuilder?i.urlBuilder.construct():"",i.urlParams=i.normalizeParams(r),i.queryParams={},i.hydrated="",i}var r,n;return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&s(e,t)}(t,l(String)),r=t,(n=[{key:"normalizeParams",value:function(e){return void 0===e?{}:((e="object"!==u(e)?[e]:e).hasOwnProperty("id")&&-1==this.template.indexOf("{id}")&&(e=[e.id]),this.numericParamIndices=Array.isArray(e),a({},e))}},{key:"with",value:function(e){return this.urlParams=this.normalizeParams(e),this}},{key:"withQuery",value:function(e){return a(this.queryParams,e),this}},{key:"hydrateUrl",value:function(){var e=this;if(this.hydrated)return this.hydrated;var t=this.template.replace(/{([^}]+)}/gi,function(t,r){var n,o,i=e.trimParam(t);if(e.ziggy.defaultParameters.hasOwnProperty(i)&&(n=e.ziggy.defaultParameters[i]),n&&!e.urlParams[i])return delete e.urlParams[i],n;if(e.numericParamIndices?(e.urlParams=Object.values(e.urlParams),o=e.urlParams.shift()):(o=e.urlParams[i],delete e.urlParams[i]),void 0===o){if(-1===t.indexOf("?"))throw new Error("Ziggy Error: '"+i+"' key is required for route '"+e.name+"'");return""}return o.id?encodeURIComponent(o.id):encodeURIComponent(o)});return null!=this.urlBuilder&&""!==this.urlBuilder.path&&(t=t.replace(/\/+$/,"")),this.hydrated=t,this.hydrated}},{key:"matchUrl",value:function(){var e=window.location.hostname+(window.location.port?":"+window.location.port:"")+window.location.pathname,t=this.template.replace(/(\/\{[^\}]*\?\})/g,"/").replace(/(\{[^\}]*\})/gi,"[^/?]+").replace(/\/?$/,"").split("://")[1],r=this.template.replace(/(\{[^\}]*\})/gi,"[^/?]+").split("://")[1],n=e.replace(/\/?$/,"/"),o=new RegExp("^"+r+"/$").test(n),i=new RegExp("^"+t+"/$").test(n);return o||i}},{key:"constructQuery",value:function(){if(0===Object.keys(this.queryParams).length&&0===Object.keys(this.urlParams).length)return"";var e=a(this.urlParams,this.queryParams);return Object(i.stringify)(e,{encodeValuesOnly:!0,skipNulls:!0,addQueryPrefix:!0,arrayFormat:"indices"})}},{key:"current",value:function(){var e=this,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,n=Object.keys(this.ziggy.namedRoutes),o=n.filter(function(r){return-1!==e.ziggy.namedRoutes[r].methods.indexOf("GET")&&new t(r,void 0,void 0,e.ziggy).matchUrl()})[0];if(r){var i=new RegExp("^"+r.replace("*",".*").replace(".",".")+"$","i");return i.test(o)}return o}},{key:"check",value:function(e){return Object.keys(this.ziggy.namedRoutes).includes(e)}},{key:"extractParams",value:function(e,t,r){var n=this,o=e.split(r);return t.split(r).reduce(function(e,t,r){return 0===t.indexOf("{")&&-1!==t.indexOf("}")&&o[r]?a(e,(i={},u=n.trimParam(t),c=o[r],u in i?Object.defineProperty(i,u,{value:c,enumerable:!0,configurable:!0,writable:!0}):i[u]=c,i)):e;var i,u,c},{})}},{key:"parse",value:function(){this.return=this.hydrateUrl()+this.constructQuery()}},{key:"url",value:function(){return this.parse(),this.return}},{key:"toString",value:function(){return this.url()}},{key:"trimParam",value:function(e){return e.replace(/{|}|\?/g,"")}},{key:"valueOf",value:function(){return this.url()}},{key:"params",get:function(){var e=this.ziggy.namedRoutes[this.current()];return a(this.extractParams(window.location.hostname,e.domain||"","."),this.extractParams(window.location.pathname.slice(1),e.uri,"/"))}}])&&c(r.prototype,n),t}();function d(e,t,r,n){return new p(e,t,r,n)}}]).default});
+</script>    </head>
+
+    <body class="skin-blue sidebar-mini offcanvas clearfix ltr">
+        <div class="left-side"></div>
+
+        <aside class="main-sidebar">
+    <header class="main-header clearfix">
+        <a class="logo" href="https://fleetcart.envaysoft.com/en/admin">
+            <span class="logo-lg">FleetCart</span>
+        </a>
+
+        <a href="javascript:void(0);" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <i aria-hidden="true" class="fa fa-bars"></i>
+        </a>
+    </header>
+
+    <section class="sidebar">
+        <ul class="sidebar-menu">
+            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin" class="">
+        <i class="fa fa-dashboard"></i>
+        <span>Dashboard</span>
+
+        
+            </a>
+
+    
+    </li>
+
+    <li class="
+    active
+    treeview
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/products" class="">
+        <i class="fa fa-cube"></i>
+        <span>Products</span>
+
+        
+                    <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+            </a>
+
+    
+            <ul class="treeview-menu">
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/products" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Catalog</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/categories" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Categories</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    active
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/brands" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Brands</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/attributes" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Attributes</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/attributes-sets" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Attribute Sets</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/options" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Options</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/tags" class="">
+        <i class="fa fa-tag"></i>
+        <span>Tags</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/reviews" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Reviews</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                    </ul>
+    </li>
+
+    <li class="
+    
+    treeview
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/orders" class="">
+        <i class="fa fa-dollar"></i>
+        <span>Sales</span>
+
+        
+                    <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+            </a>
+
+    
+            <ul class="treeview-menu">
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/orders" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Orders</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/transactions" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Transactions</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                    </ul>
+    </li>
+
+    <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/flash-sales" class="">
+        <i class="fa fa-bolt"></i>
+        <span>Flash Sales</span>
+
+        
+            </a>
+
+    
+    </li>
+
+    <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/coupons" class="">
+        <i class="fa fa-tags"></i>
+        <span>Coupons</span>
+
+        
+            </a>
+
+    
+    </li>
+
+    <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/pages" class="">
+        <i class="fa fa-file"></i>
+        <span>Pages</span>
+
+        
+            </a>
+
+    
+    </li>
+
+    <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/media" class="">
+        <i class="fa fa-camera"></i>
+        <span>Media</span>
+
+        
+            </a>
+
+    
+    </li>
+
+    <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/menus" class="">
+        <i class="fa fa-bars"></i>
+        <span>Menus</span>
+
+        
+            </a>
+
+    
+    </li>
+
+
+            <li class="header">System</li>
+
+    <li class="
+    
+    treeview
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/users" class="">
+        <i class="fa fa-users"></i>
+        <span>Users</span>
+
+        
+                    <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+            </a>
+
+    
+            <ul class="treeview-menu">
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/users" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Users</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/roles" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Roles</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                    </ul>
+    </li>
+
+    <li class="
+    
+    treeview
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/translations" class="">
+        <i class="fa fa-globe"></i>
+        <span>Localization</span>
+
+        
+                    <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+            </a>
+
+    
+            <ul class="treeview-menu">
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/translations" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Translations</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/currency-rates" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Currency Rates</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/taxes" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Taxes</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                    </ul>
+    </li>
+
+    <li class="
+    
+    treeview
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/sliders" class="">
+        <i class="fa fa-paint-brush"></i>
+        <span>Appearance</span>
+
+        
+                    <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+            </a>
+
+    
+            <ul class="treeview-menu">
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/sliders" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Sliders</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/storefront" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Storefront</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                    </ul>
+    </li>
+
+    <li class="
+    
+    treeview
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/importer" class="">
+        <i class="fa fa-wrench"></i>
+        <span>Tools</span>
+
+        
+                    <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+            </a>
+
+    
+            <ul class="treeview-menu">
+                            <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/importer" class="">
+        <i class="fa fa-angle-double-right"></i>
+        <span>Importer</span>
+
+        
+            </a>
+
+    
+    </li>
+
+                    </ul>
+    </li>
+
+    <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/reports" class="">
+        <i class="fa fa-bar-chart"></i>
+        <span>Reports</span>
+
+        
+            </a>
+
+    
+    </li>
+
+    <li class="
+    
+    
+">
+    <a href="https://fleetcart.envaysoft.com/en/admin/settings" class="">
+        <i class="fa fa-cogs"></i>
+        <span>Settings</span>
+
+        
+            </a>
+
+    
+    </li>
+
+
+    </ul>
+
+    </section>
+</aside>
+
+        <div class="wrapper" style="min-height: 674px;">
+            <div class="content-wrapper">
+                <nav class="navbar navbar-static-top clearfix">
+    <ul class="nav navbar-nav clearfix">
+        <li class="visit-store hidden-sm hidden-xs">
+            <a href="https://fleetcart.envaysoft.com/en">
+                <i class="fa fa-desktop"></i>
+                Visit Store
+            </a>
+        </li>
+
+        <li class="dropdown top-nav-menu pull-right">
+            <a href="https://fleetcart.envaysoft.com/#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-user-circle-o"></i><span>Demo</span>
+            </a>
+
+            <ul class="dropdown-menu">
+                <li><a href="https://fleetcart.envaysoft.com/en/admin/profile">Profile</a></li>
+                <li><a href="https://fleetcart.envaysoft.com/en/admin/logout">Logout</a></li>
+            </ul>
+        </li>
+
+                    <li class="language dropdown top-nav-menu pull-right">
+                <a href="https://fleetcart.envaysoft.com/#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span>EN</span>
+                </a>
+
+                <ul class="dropdown-menu">
+                                            <li class="">
+                            <a href="https://fleetcart.envaysoft.com/ar/admin/brands">Arabic</a>
+                        </li>
+                                            <li class="active">
+                            <a href="https://fleetcart.envaysoft.com/en/admin/brands">English</a>
+                        </li>
+                                    </ul>
+            </li>
+            </ul>
+</nav>
+
+                <section class="content-header clearfix">
+                        <h3>Brands</h3>
+
+    <ol class="breadcrumb">
+        <li><a href="https://fleetcart.envaysoft.com/en/admin">Dashboard</a></li>
+
+        <li class="active">Brands</li>
+    </ol>
+                </section>
+
+                <section class="content">
+                    
+                        <div class="row">
+        <div class="btn-group pull-right">
+                                                <a href="https://fleetcart.envaysoft.com/en/admin/brands/create" class="btn btn-primary btn-actions btn-create">
+                        Create Brand
+                    </a>
+                                    </div>
+    </div>
+
+    <div class="box box-primary">
+        <div class="box-body index-table" id="brands-table">
+                            <div class="table-responsive">
+    <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="DataTables_Table_0_length"><label>Show <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control input-sm custom-select-black"><option value="10">10</option><option value="20">20</option><option value="50">50</option><option value="100">100</option><option value="200">200</option></select> entries</label><button type="button" class="btn btn-default btn-delete">
+                Delete
+            </button></div></div><div class="col-sm-6"><div id="DataTables_Table_0_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="DataTables_Table_0"></label></div></div></div><div class="row"><div class="col-sm-12"><table class="table table-striped table-hover dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+        <thead><tr role="row"><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="
+    
+        
+        
+    
+" style="width: 3%;">
+    <div class="checkbox">
+        <input type="checkbox" class="select-all" id="-select-all">
+        <label for="-select-all"></label>
+    </div>
+</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="ID: activate to sort column ascending" style="width: 5%;">ID</th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Logo" style="width: 10%;">Logo</th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Name">Name</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending">Status</th><th data-sort="" class="sorting_desc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="descending" aria-label="Created: activate to sort column ascending">Created</th></tr></thead>
+
+        <tbody><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="19" id="1ViItMcntzVq4kne">
+    <label for="1ViItMcntzVq4kne"></label>
+</div>
+</td><td style="cursor: pointer;">19</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/cpX550XTke137wP71XC4bd6vGf68l6emVynXq3HJ.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">NOKIA</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="18" id="VRaYfRl5qTkAI6RW">
+    <label for="VRaYfRl5qTkAI6RW"></label>
+</div>
+</td><td style="cursor: pointer;">18</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/Quysi8IloZADWNe2ZxeK98PN4FgHpoQWBXSnhlQV.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">SONY</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="17" id="LGSU90hnGbL2crdg">
+    <label for="LGSU90hnGbL2crdg"></label>
+</div>
+</td><td style="cursor: pointer;">17</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/DbwfoaPYxERzjV8qsFUSpS9UMjskuZ5yauWC3Wtn.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">NIKE</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="16" id="qfo6Ly68ev6Ud2wy">
+    <label for="qfo6Ly68ev6Ud2wy"></label>
+</div>
+</td><td style="cursor: pointer;">16</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/H0BnQ6XoB6vBb1YAkRg22mncLS76Yv0zGz4T4M04.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Adidas</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="15" id="oUdYJjTH7yqfTpLp">
+    <label for="oUdYJjTH7yqfTpLp"></label>
+</div>
+</td><td style="cursor: pointer;">15</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/3IcUp71JfyiH3wkWU0omhlcs0xqgdWzmY3Z4imMO.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Beats</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="14" id="pxdXL5pqR0VDbHpa">
+    <label for="pxdXL5pqR0VDbHpa"></label>
+</div>
+</td><td style="cursor: pointer;">14</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/P9UF8sprnzBNqEnbAd2j82UA4b0fzk85uIZp4H4s.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">LG</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="12" id="aaLlpz32z0jcaVhn">
+    <label for="aaLlpz32z0jcaVhn"></label>
+</div>
+</td><td style="cursor: pointer;">12</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/8DfT3LNUhYbei3YrhJ1FscMVKiPPQi43LdCY29Am.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">MSI</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="11" id="QyhuabHbIUn4wMRD">
+    <label for="QyhuabHbIUn4wMRD"></label>
+</div>
+</td><td style="cursor: pointer;">11</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/RlQnH51zyXArkeBhIT0BCaJiyqAIcdCHCNjnsiZW.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Reebok</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="10" id="StscyhdFwFJiYlux">
+    <label for="StscyhdFwFJiYlux"></label>
+</div>
+</td><td style="cursor: pointer;">10</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/vW30vojYODrqYBs9x3ToIpBHm1zyrKU7ZhmD9SQG.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Lenovo</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="9" id="0C3SOigezJAczvXW">
+    <label for="0C3SOigezJAczvXW"></label>
+</div>
+</td><td style="cursor: pointer;">9</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/HSvr36xBFke3Jh6mbDaeAG8jJZ4RH78ousrLr1i2.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Microsoft</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="8" id="VhRWJaXuYfYCvHSW">
+    <label for="VhRWJaXuYfYCvHSW"></label>
+</div>
+</td><td style="cursor: pointer;">8</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/JnH5uK3QY3mOamQ8NsHCbtqj0xULHsjOTHtHTbeO.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">ASUS</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="7" id="inK2UXoJF02OR8Y8">
+    <label for="inK2UXoJF02OR8Y8"></label>
+</div>
+</td><td style="cursor: pointer;">7</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/rCfwklCfNTBKz4JGeloPqqI7BTS8PdYibzEkB8mS.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Acer</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="6" id="oPeeG2IEsa0fxEMN">
+    <label for="oPeeG2IEsa0fxEMN"></label>
+</div>
+</td><td style="cursor: pointer;">6</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/8bmlnpJluQBwAAJolyS708652aY6Kj8dEmYQ7woo.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Dell</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="5" id="UbcZmUZz9uAovpwy">
+    <label for="UbcZmUZz9uAovpwy"></label>
+</div>
+</td><td style="cursor: pointer;">5</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/j2WP3lfi8JTanXQsxrNDclJAb2RHKxBOtlQwlK2g.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">HP</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="4" id="Qk5d3iPb6NZYHBwi">
+    <label for="Qk5d3iPb6NZYHBwi"></label>
+</div>
+</td><td style="cursor: pointer;">4</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/JwT1Wydv8ADuSHBh7ZtCaWLkuO2Jy9WYZRovQW1W.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">OnePlus</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="3" id="Uhd4yaRbhdK1lvjJ">
+    <label for="Uhd4yaRbhdK1lvjJ"></label>
+</div>
+</td><td style="cursor: pointer;">3</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/SbgS1CCecSpvvnBeBmG6xP49q2NymXQzJpiHbMAi.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Huawei</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="odd clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="2" id="Emktgxh15MRilFrB">
+    <label for="Emktgxh15MRilFrB"></label>
+</div>
+</td><td style="cursor: pointer;">2</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/nshpkDL124reDq8apPXBcpVrnV8ABDzC88R5gg3K.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Samsung</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr><tr role="row" class="even clickable-row"><td><div class="checkbox">
+    <input type="checkbox" class="select-row" value="1" id="FZE1c9iWBjuVLCyz">
+    <label for="FZE1c9iWBjuVLCyz"></label>
+</div>
+</td><td style="cursor: pointer;">1</td><td style="cursor: pointer;"><div class="thumbnail-holder">
+            <img src="./lenovo_files/jZG1juhijMhWSrn8B4jgsX5x4Vb8dOTdZTtGNACo.webp" alt="thumbnail">
+    </div>
+</td><td style="cursor: pointer;">Apple</td><td style="cursor: pointer;"><span class="dot green"></span></td><td class="sorting_1" style="cursor: pointer;"><span data-toggle="tooltip" title="May 10, 2020">
+    2 months ago
+</span>
+</td></tr></tbody>
+
+            </table><div id="DataTables_Table_0_processing" class="dataTables_processing panel panel-default" style="display: none;"><i class="fa fa-refresh fa-spin"></i></div></div></div><div class="row"><div class="col-sm-5"><div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 18 of 18 entries</div></div><div class="col-sm-7"><div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="DataTables_Table_0_previous"><a href="https://fleetcart.envaysoft.com/#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0">Previous</a></li><li class="paginate_button active"><a href="https://fleetcart.envaysoft.com/#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button next disabled" id="DataTables_Table_0_next"><a href="https://fleetcart.envaysoft.com/#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0">Next</a></li></ul></div></div></div></div>
+</div>
+                    </div>
+    </div>
+                </section>
+
+                <div id="notification-toast"></div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="keyboard-shortcuts-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a type="button" class="close" data-dismiss="modal" aria-label="Close">×</a>
+                <h4 class="modal-title">Available keyboard shortcuts on this page</h4>
+            </div>
+
+            <div class="modal-body">
+                <dl class="dl-horizontal">
+                    <dt><code>?</code></dt>
+                    <dd>This Menu</dd>
+                </dl>
+
+                                    <dl class="dl-horizontal">
+                <dt><code>c</code></dt>
+                <dd>Create Brand</dd>
+            </dl>
+        
+        <dl class="dl-horizontal">
+            <dt><code>Del</code></dt>
+            <dd>Delete Brand</dd>
+        </dl>
+                </div>
+        </div>
+    </div>
+</div>
+
+<footer class="main-footer">
+    <div class="pull-right hidden-xs">
+        <span>v2.0.3</span>
+    </div>
+
+    <a href="https://fleetcart.envaysoft.com/#" data-toggle="modal" data-target="#keyboard-shortcuts-modal">
+        <i class="fa fa-keyboard-o"></i>
+    </a>&nbsp;
+
+    <span>Copyright © 2020 <a href="https://envaysoft.com/fleetcart" target="_blank">FleetCart</a></span>
+</footer>
+
+        <div class="modal fade" id="confirmation-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+
+                <h3 class="modal-title">Confirmation</h3>
+            </div>
+
+            <div class="modal-body">
+                <div class="default-message">
+                    Are you sure you want to delete?
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <form method="POST" id="confirmation-form">
+                    <input type="hidden" name="_token" value="repOHj6VBk15AvIh7SdmkzWgz4Pz0stSvfQAQN8s">
+                    <input type="hidden" name="_method" value="delete">
+
+                    <button type="button" class="btn btn-default cancel" data-dismiss="modal">
+                        Cancel
+                    </button>
+
+                    <button type="submit" class="btn btn-danger delete">
+                        Delete
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    <script src="./lenovo_files/polyfill.min.js.descarga"></script>
+                    <script src="./lenovo_files/admin.js.descarga"></script>
+        
+                <script>
+                            keypressAction([
+                    { key: 'c', route: 'https://fleetcart.envaysoft.com/en/admin/brands/create'}
+                ]);
+            
+            Mousetrap.bind('del', function () {
+                $(' .btn-delete').trigger('click');
+            });
+
+                            DataTable.setRoutes('#brands-table .table', {
+                    index: 'admin.brands.index',
+                    edit: 'admin.brands.edit',
+                    destroy: 'admin.brands.destroy',
+                });
+                    </script>
+        <script>
+        new DataTable('#brands-table .table', {
+            columns: [
+                { data: 'checkbox', orderable: false, searchable: false, width: '3%' },
+                { data: 'id', width: '5%' },
+                { data: 'logo', orderable: false, searchable: false, width: '10%' },
+                { data: 'name', name: 'translations.name', orderable: false, defaultContent: '' },
+                { data: 'status', name: 'is_active', searchable: false },
+                { data: 'created', name: 'created_at' },
+            ],
+        });
+    </script>
+    
+
+</body></html>
